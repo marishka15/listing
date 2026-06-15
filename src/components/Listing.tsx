@@ -2,7 +2,7 @@ interface MainImage {
   url_570xN: string;
 }
 
-interface ListingItem {
+export interface ListingItem {
   listing_id: number;
   url: string;
   title: string;
